@@ -16,6 +16,7 @@ int find_prime_Num(int limit)
     if(limit <= 0);
     else
     {
+		printf("1 ");
         for(t = 2; t <= limit;t++)
         {
             flag = 1;
