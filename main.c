@@ -6,7 +6,10 @@ int find_prime_Num(int limit);
 ///////////////////////////////////
 int main()
 {
-    find_prime_Num(100);
+    int ans;
+    printf("Enter a limit of numbers to calculate: \n");
+    scanf("%d", &ans);
+    printf("\nNumber of primes = %d ",find_prime_Num(ans));
     return 0;
 }
 ///////////////////////////////////
@@ -16,7 +19,8 @@ int find_prime_Num(int limit)
     if(limit <= 0);
     else
     {
-		printf("1 ");
+        printf("1 ");
+        count++;
         for(t = 2; t <= limit;t++)
         {
             flag = 1;
